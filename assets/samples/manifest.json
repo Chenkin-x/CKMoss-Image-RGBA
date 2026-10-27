@@ -1,0 +1,90 @@
+[
+  {
+    "file": "botanist.png",
+    "prompt": "A full-body anime illustration of an adult female botanist with mint-green bob hair, wearing a cream safari jacket, brown trousers and boots, holding a small potted plant. Refined line art, soft mint and peach colors, isolated, transparent background.",
+    "seed": 47,
+    "width": 512,
+    "height": 640,
+    "steps": 30,
+    "cfg": 4.0,
+    "vae": "moss_rgba_vae.safetensors",
+    "lora": "moss_rgba_dit_lora.safetensors"
+  },
+  {
+    "file": "navigator.png",
+    "prompt": "A full-body anime illustration of an adult female sky navigator, silver bob hair, teal eyes, a navy blue flight jacket over a high-neck white blouse, tailored dark trousers and boots, a silk teal scarf blowing gently, holding a folded star chart. Elegant dynamic silhouette, fine line art, beautifully detailed fabric, transparent background.",
+    "seed": 312,
+    "width": 512,
+    "height": 768,
+    "steps": 30,
+    "cfg": 4.0,
+    "vae": "moss_rgba_vae.safetensors",
+    "lora": "moss_rgba_dit_lora.safetensors"
+  },
+  {
+    "file": "knight.png",
+    "prompt": "Full body fantasy character design of an adult woman knight with short red hair, dressed in elegant ivory and pale gold armor, a long blue cape, holding a slender silver sword pointing downward. Confident pose, detailed anime illustration, delicate linework, isolated, transparent background.",
+    "seed": 83,
+    "width": 512,
+    "height": 768,
+    "steps": 30,
+    "cfg": 4.0,
+    "vae": "moss_rgba_vae.safetensors",
+    "lora": "moss_rgba_dit_lora.safetensors"
+  },
+  {
+    "file": "fox.png",
+    "prompt": "A small friendly red fox curled around a bouquet of white flowers, expressive eyes, fluffy orange and cream fur, delicate watercolor and colored-pencil illustration, warm gentle colors, isolated, transparent background.",
+    "seed": 171,
+    "width": 640,
+    "height": 512,
+    "steps": 30,
+    "cfg": 4.0,
+    "vae": "moss_rgba_vae.safetensors",
+    "lora": "moss_rgba_dit_lora.safetensors"
+  },
+  {
+    "file": "witch.png",
+    "prompt": "A full-body anime illustration of an adult witch in a flowing black and lilac dress with long sleeves and a high collar, a wide pointed hat decorated with silver stars, long lavender hair, holding a crescent moon staff. Elegant fantasy fashion, clean detailed line art, transparent background.",
+    "seed": 419,
+    "width": 512,
+    "height": 768,
+    "steps": 30,
+    "cfg": 4.0,
+    "vae": "moss_rgba_vae.safetensors",
+    "lora": "moss_rgba_dit_lora.safetensors"
+  },
+  {
+    "file": "robot.png",
+    "prompt": "A charming small mint-green delivery robot carrying a terracotta pot with a tiny orange tree, rounded cream metal body, little wheels, warm expressive amber eyes, tasteful 3D character design with soft studio lighting, isolated, transparent background.",
+    "seed": 55,
+    "width": 512,
+    "height": 640,
+    "steps": 30,
+    "cfg": 4.0,
+    "vae": "moss_rgba_vae.safetensors",
+    "lora": "moss_rgba_dit_lora.safetensors"
+  },
+  {
+    "file": "teapot.png",
+    "prompt": "A whimsical illustrated porcelain teapot shaped like a little white cottage, moss-green roof lid, tiny amber windows, white flowers and leaves climbing the spout. Fine watercolor linework, delicate pastel colors, isolated object, transparent background.",
+    "seed": 211,
+    "width": 640,
+    "height": 512,
+    "steps": 30,
+    "cfg": 4.0,
+    "vae": "moss_rgba_vae.safetensors",
+    "lora": "moss_rgba_dit_lora.safetensors"
+  },
+  {
+    "file": "boy.png",
+    "prompt": "Full-body anime character design of an adult male traveler with tousled dark blue hair, round glasses, an oversized ochre windbreaker, navy trousers and hiking boots, a compact leather backpack, holding a camera. Friendly smile, graceful pose, detailed line art, transparent background.",
+    "seed": 721,
+    "width": 512,
+    "height": 768,
+    "steps": 30,
+    "cfg": 4.0,
+    "vae": "moss_rgba_vae.safetensors",
+    "lora": "moss_rgba_dit_lora.safetensors"
+  }
+]

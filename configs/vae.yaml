@@ -1,0 +1,48 @@
+# The original FLUX.2 VAE; no f64 adapter is involved in this RGBA conversion.
+model:
+  config: configs/flux2-vae.json
+  weights: models/flux2-vae.safetensors
+  gradient_checkpointing: true
+  lora:
+    rank: 32
+    alpha: 32
+
+data:
+  root: data/rgba/train
+  validation_root: data/rgba/validation
+  resolution: 1024
+  batch_size: 2
+  validation_batch_size: 1
+  num_workers: 4
+  blend_probability: 0.3
+
+optimizer:
+  lr: 1.0e-4
+  betas: [0.5, 0.9]
+  weight_decay: 0.01
+
+# All losses use element means. Coefficients must be assessed on F2VAE data;
+# they are not equivalent to AlphaVAE's summed pixel/latent loss scales.
+# This entry point trains reconstruction, LPIPS and the two KL terms, without GAN.
+loss:
+  lpips_weight: 0.5
+  kl_weight: 1.0e-6
+  ref_kl_weight: 1.0e-16
+  background_mean: [-0.0357, -0.0811, -0.1797]
+  background_second_moment: [0.3163, 0.3060, 0.3634]
+
+training:
+  max_steps: 7500  # 240K image presentations, matching 30K updates at global batch 8.
+  warmup_steps: 100
+  gradient_accumulation_steps: 4  # 4 GPUs * 2 images * 4 = global batch 32.
+  mixed_precision: bf16
+  log_every: 10
+  validate_every: 500
+  save_every: 500
+  seed: 23
+
+logging:
+  wandb: false
+  project: viola
+  entity: null
+  name: f2vae-rgba-noob2-lora32-gb32-1024

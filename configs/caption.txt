@@ -1,0 +1,5 @@
+Write one concise English caption describing the visible artwork. Use about 30-60 words and return only the caption.
+
+Focus on the art style, main subject or object, distinctive colors, hair, clothing, expression and visible action. If a garment or small detail is unclear, use a broader description or omit it. Describe an isolated face as a face and a sprite sheet as a set of portraits. Do not invent body parts, names, ages, stories, or precise positions and limb counts. Do not use full-body, camera, or shot labels. Avoid quality praise and use neutral, non-graphic language.
+
+Ignore the gray checkerboard; it is only a viewing aid. Do not mention the checkerboard, background, transparency, compositing, or the display process. The background tag is added separately.
