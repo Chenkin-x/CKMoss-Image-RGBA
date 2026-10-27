@@ -62,4 +62,4 @@ Developer entry points and configuration: [code guide](docs/code.md).
 
 Built on [MOSS-Image](https://github.com/OpenMOSS/MOSS-Image) and the [FLUX.2 VAE](https://github.com/black-forest-labs/flux2#flux2-autoencoder). Thanks to [niangao2331](https://github.com/niangao2331) for data support.
 
-This project uses [GPLv3](LICENSE). Upstream attribution: [NOTICE](NOTICE).
+This repository's code is licensed under [GPLv3](LICENSE). The upstream [MOSS-Image](https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT/blob/main/LICENSE) and [FLUX.2 VAE](https://github.com/black-forest-labs/flux2#flux2-autoencoder) models are released under Apache 2.0; see the linked upstream license information.
